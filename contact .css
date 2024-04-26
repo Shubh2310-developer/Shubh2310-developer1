@@ -1,0 +1,71 @@
+/* CSS styles for the contact page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.background-image {
+    background-image: url(images/background1.jpg); /* Replace 'your-background-image.jpg' with your actual background image file */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto; /* Adjust margin to move the container upwards */
+    background-color: rgba(255, 255, 255, 0.8); /* Added background color with opacity for better readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
